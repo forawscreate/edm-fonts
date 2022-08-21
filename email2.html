@@ -62,17 +62,48 @@
         background-color: #fffffe;
         text-align: left;
       }
+      td.section5 {
+        margin: 0px;
+        padding: 20px 60px 0px 60px;
+        background-color: #000000;
+      }
+      td.section6 {
+        margin: 0px;
+        padding: 0px 60px 20px 60px;
+        background-color: #000000;
+      }
       td.yellow{
         margin: 0px;
         padding: 40px 60px 20px 40px;
         background-color: #f6d803;
         text-align: center;
       }
-
-      td.influ_img{
-        width: 50%;
+      td.section_barrel {
+        margin: 0px;
+        background-color: #000000;
       }
-
+      tr.section_influ{
+        display: inline-block;
+        margin: 0px;
+        padding: 20px 60px 20px 60px;
+        background-color: #000000;
+        text-align: left;
+      }
+      .influ_img_container {
+        padding-left: 80px;
+        padding-right: 10px;
+      }
+      .influ_text_container {
+        padding-left: 10px;
+        padding-right: 60px;
+      }
+      .influ_img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 0 auto;
+        display: block;
+      }
       div.paragraph{
         margin: 0px;
         padding: 100px;
@@ -116,6 +147,13 @@
         font-weight: normal;
         color: #fffffe;
       }
+      p.white_italic{
+        font-size: 16px;
+        line-height: 1.75;
+        font-weight: normal;
+        font-style: italic;
+        color: #fffffe;
+      }
       p.black{
         font-size: 16px;
         line-height: 24px;
@@ -130,7 +168,6 @@
         color:green;
         text-align: center;
       }
-
       @media only screen and (max-width: 480px) {
         .sm-font-18 {
           font-size: 18px !important;
@@ -166,18 +203,70 @@
                 <img style="margin-top: 20px; border: 0; padding: 0; display:block;"src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/people.png"width="100%">
         </td>
       </tr>
-        <!--Section: MELATI Influencer-->
+      <!--Section: MELATI Influencer-->
       <tr>
-        <td class="influ_img">
-          <img src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/wijsen.png" alt="">
-        </td>
-
-        <td class="influ_img">
-          <p>“IT'S SO IMPORTANT...WHEN WE TALK ABOUT STORYTELLING AND COMING TOGETHER, TO BRING FORWARD ONE SPECIFIC MESSAGE, WHICH IS TAKING CARE OF OUR PLANET HOME”</p>
+        <td>
+          <table cellpadding="0" cellspacing="0">
+            <tr class="section_influ">
+              <td class="influ_img_container">
+                <img class="influ_img" src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/wijsen.png" alt="">
+              </td>
+              <td class="influ_text_container">
+                <p class="white">“IT'S SO IMPORTANT...WHEN WE TALK ABOUT STORYTELLING AND COMING TOGETHER, TO BRING FORWARD ONE SPECIFIC MESSAGE, WHICH IS TAKING CARE OF OUR PLANET HOME”</p>
+                <p class="white" style="margin-bottom: 0px">MELATI WIJSEN</p>
+                <p class="white" style="margin-top: 0px">CHANGEMAKER</p>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
-
-
+      <!--Section: ALBERT LIN-->
+      <tr>
+        <td class="section5">
+          <h1 class="yellow">SKY’S THE LIMIT WITH ALBERT LIN</h1>
+          <p class="white">Most of us would’ve never gotten to behold incredible treasures in unreachable places—if not for Albert Lin pushing the boundaries of what’s possible, using a blend of technology and exploration to unearth ancient tombs and pyramids. Opting for film as his storytelling format of choice, his documentary The Barrel Project chronicles the search for his next great find: a legendary barrel wave to conquer, using the same innovations that helped him learn to walk again after an ill-fated accident.</p>
+        </td>
+      </tr>
+      <!--Section: Barbel LIN-->
+      <tr>
+        <td class="section6">
+          <table style="width: 100%; max-width: 500px; margin: 0 auto 15px;">
+            <tr>
+              <td style="width: 50%;">
+                <img style="width: 250px;" src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/MikeCoots.JPG"/>
+              </td>
+              <td style="text-align: left;padding-left: 25px;padding-top:10px;color: #fffffe;">
+                <p class="white_italic">
+                  The power of a single image. After
+                  Albert’s accident, a friend showed
+                  him this photo of Mike Coots— a photo
+                  Albert credits as the driving force that
+                  got him out of the hospital bed, renewed
+                  in his belief that anything is possible.
+                </p>
+              </td>
+            </tr>
+          </table>
+          <div> <a href="https://www.barrelproject.media/" target="_blank">Explore the barrel project</a> </div>
+        </td>
+      </tr>
+      <!--Section: ALBERT LIN Influencer-->
+      <tr>
+        <td>
+          <table cellpadding="0" cellspacing="0">
+            <tr class="section_influ">
+              <td class="influ_img_container">
+                <img class="influ_img" src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/albert.png" alt="">
+              </td>
+              <td class="influ_text_container">
+                <p class="white">“WE'VE SEEN THE RITUAL OF THE OCEAN AND OUR RELATIONSHIP TO IT BUILD, IN A WAY THAT I THINK HAS MADE ME INCREDIBLY HUMBLED”</p>
+                <p class="white" style="margin-bottom: 0px">ALBERT LIN</p>
+                <p class="white" style="margin-top: 0px">EXPLORER, ENGINEER AND SCIENTIST</p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
 
 
 
@@ -197,10 +286,22 @@
       </td>
     </tr>
     <!--Section: PABLO ALBARENGA Influencer-->
-
-
-
-
+    <tr>
+      <td>
+        <table cellpadding="0" cellspacing="0">
+          <tr class="section_influ">
+            <td class="influ_img_container">
+              <img class="influ_img" src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/pablo.jpeg" alt="">
+            </td>
+            <td class="influ_text_container">
+              <p class="white">“I HOPE THIS IMAGE WORKS AS A PORTAL FOR YOU TO GO BEYOND THE TREES IN SEARCH OF STORIES THAT MATTER”</p>
+              <p class="white" style="margin-bottom: 0px">PABLO ALBARENGA</p>
+              <p class="white" style="margin-top: 0px">JOURNALIST, PHOTOGRAPHER AND VIDEOGRAPHER</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
     <!--Section: Scuba width 100%-->
     <tr>
@@ -218,7 +319,22 @@
       </td>
     </tr>
     <!--Section: EMERGING ISLANDS Influencer-->
-
+    <tr>
+      <td>
+        <table cellpadding="0" cellspacing="0">
+          <tr class="section_influ">
+            <td class="influ_img_container">
+              <img class="influ_img" src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/car.png" alt="">
+            </td>
+            <td class="influ_text_container">
+              <p class="white">“TAKING OUR CUES FROM THE PLACE WE HAD FOUND A SANCTUARY IN THIS TIME OF UNCERTAINTY,WE WONDERED, WHAT IF WE COULD ENABLE FILIPINO ARTISTS TO THINK, CREATE, AND RELATE AS AN ARCHIPELAGO?”</p>
+              <p class="white" style="margin-bottom: 0px">EMERGING ISLANDS</p>
+              <p class="white" style="margin-top: 0px">COASTAL-BASED ARTS ORGANISATION</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
 
 
     <!--Section: GLOBAL CONVERSATIONS-->
