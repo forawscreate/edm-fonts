@@ -134,9 +134,13 @@
         background-color: #f6d803;
         text-align: center;
       }
-      td.section_barrel {
-        margin: 0px;
-        background-color: #000000;
+      td.section-barrel {
+        width: 50%;
+        color: #fffffe;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 25px;
       }
       td.section-influ {
         width: 100%;
@@ -192,6 +196,9 @@
         font-weight: bold;
         letter-spacing: 5px;
         color: #fffffe;
+      }
+      p.section-barrel {
+        max-width: 250px;
       }
       p.white{
         font-size: 16px;
@@ -282,6 +289,9 @@
         .sm-pr-0 {
           padding-right: 0px !important;
         }
+        .sm-pr-12 {
+          padding-right: 12px !important;
+        }
       }
     </style>
   </head>
@@ -346,11 +356,11 @@
         <td class="section6">
           <table style="margin-bottom: 20px;">
             <tr>
-              <td style="width: 50%;" align="right">
+              <td class="sm-pr-12" style="padding-right: 25px;width: 50%;" align="right">
                 <img width="250" src="https://cdn.jsdelivr.net/gh/forawscreate/edm-fonts@main/MikeCoots.JPG"/>
               </td>
-              <td class="sm-pr-0 " style="padding: 10px 150px 0px 25px;color: #fffffe;" align="left">
-                <p class="white_italic sm-font-12">
+              <td class="sm-pr-0 section-barrel" align="left">
+                <p class="white_italic sm-font-12 section-barrel">
                   The power of a single image. After
                   Albert’s accident, a friend showed
                   him this photo of Mike Coots— a photo
